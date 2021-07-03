@@ -1,0 +1,50 @@
+/**************GENERAL**********************/
+
+body{
+  margin: 0;
+  background-color: #ffeecc;
+
+}
+/***************HEADER***********************/
+
+.header{
+  font: Serafettin Cartoon, arial, sans-serif;
+  background-color: #ff8000;
+  text-align: center;
+
+}
+#head{
+  text-decoration: none;
+  color: #ffffff;
+  margin:0;
+  padding: 0;
+}
+#head h1{
+  border:0;
+  padding-top: 22px;
+  padding-bottom: 0px;
+  font-size: 60px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#head h3{
+  padding: 0;
+  margin:0;
+}
+#nav li a{
+  text-decoration: none;
+  color: #ffffff;
+}
+#nav{
+  list-style-type: none;
+  background-color: #e67300;
+  margin-top: 5px;
+}
+#nav li{
+  display: inline-block;
+  padding: 5px 25px 5px 25px;
+}
+#nav li:hover{
+  background-color: #ff8000;
+}
+/******************BODY********************/

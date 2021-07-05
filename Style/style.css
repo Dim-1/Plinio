@@ -11,7 +11,6 @@ body{
   font: Serafettin Cartoon, arial, sans-serif;
   background-color: #ff8000;
   text-align: center;
-
 }
 #head{
   text-decoration: none;
@@ -20,7 +19,6 @@ body{
   padding: 0;
 }
 #head h1{
-  border:0;
   padding-top: 22px;
   padding-bottom: 0px;
   font-size: 60px;
@@ -50,10 +48,13 @@ body{
 /******************BODY********************/
 
 #content{
-  width: 800px;
+  width: 1069px;
   margin:30px auto;
   color:#4d2600;
 }
 #content p{
   text-align: justify;
+}
+#content img{
+  align-self: auto;
 }

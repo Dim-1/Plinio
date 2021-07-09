@@ -20,14 +20,24 @@ header{
   margin:0;
   padding: 0;
 }
-#head h1{
-  padding-top: 22px;
+#head img{
+  display: inline-block;
+  max-width: 110px;
+  padding-top: 10px;
+
+}
+.titolo{
+  display: inline-block;
+  margin:auto 150px auto 150px;
+}
+.titolo h1{
+
   padding-bottom: 0px;
   font-size: 60px;
   margin-top: 0;
   margin-bottom: 0;
 }
-#head h3{
+.titolo h3{
   padding: 0;
   margin:0;
 }

@@ -3,12 +3,14 @@
 body{
   margin: 0;
   background-color: #ffeecc;
+  font-family: 'Yomogi', cursive;
+
 
 }
 /***************HEADER***********************/
 
-.header{
-  font: Serafettin Cartoon, arial, sans-serif;
+header{
+
   background-color: #ff8000;
   text-align: center;
 }
@@ -47,14 +49,14 @@ body{
 }
 /******************BODY********************/
 
-#content{
+main {
   width: 1069px;
   margin:30px auto;
   color:#4d2600;
 }
-#content p{
+main p{
   text-align: justify;
 }
-#content img{
+main img{
   align-self: auto;
 }

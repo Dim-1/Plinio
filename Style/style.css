@@ -1,11 +1,22 @@
 /**************GENERAL**********************/
-
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
 body{
   margin: 0;
   background-color: #ffeecc;
   font-family: 'Yomogi', cursive;
-
-
+  font-size: 1.6rem;
+}
+a{
+  text-decoration: none;
+}
+.active{
+  background-color: #ff8000;
+  border-radius: 3px;
 }
 /***************HEADER***********************/
 
@@ -33,7 +44,7 @@ header{
 .titolo h1{
 
   padding-bottom: 0px;
-  font-size: 4rem;
+  font-size: 5rem;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -42,8 +53,8 @@ header{
   margin:0;
 }
 #nav li a{
-  text-decoration: none;
   color: #ffffff;
+  padding:2px 5px;
 }
 #nav{
   list-style-type: none;
@@ -54,13 +65,11 @@ header{
   display: inline-block;
   padding: 5px 25px 5px 25px;
 }
-#nav li:hover{
-  background-color: #ff8000;
-}
+
 /******************BODY********************/
 
 main {
-  width: 1069px;
+  width: 90%;
   margin:30px auto;
   color:#4d2600;
 }
@@ -69,4 +78,35 @@ main p{
 }
 main img{
   align-self: auto;
+  width: 100%;
+}
+
+/************************Footer************************************************/
+
+footer.main{
+  clear:both;
+  text-align:center;
+}
+.social{
+
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.social a img{
+  max-height: 50px;
+  margin: auto 10px;
+}
+.social p{
+  font-size: 1.2rem;
+}
+
+
+/***********************media query********************************************/
+
+@media only screen and (min-width:992px) {
+/****************************************Header********************************/
+  #nav li a:hover{
+    background-color: #ff8000;
+    border-radius: 3px;
+  }
 }

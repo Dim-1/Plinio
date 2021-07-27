@@ -63,7 +63,7 @@ header{
 }
 #nav li{
   display: inline-block;
-  padding: 5px 25px 5px 25px;
+  padding: 6px 25px 6px 25px;
 }
 
 /******************BODY********************/
@@ -104,7 +104,12 @@ footer.main{
 /***********************media query********************************************/
 
 @media only screen and (min-width:992px) {
+
 /****************************************Header********************************/
+
+  #nav li a{
+    transition: background 0.4s;
+  }
   #nav li a:hover{
     background-color: #ff8000;
     border-radius: 3px;

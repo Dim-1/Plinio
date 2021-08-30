@@ -27,6 +27,9 @@ header{
 
   background-color: #ff8000;
   text-align: center;
+  position: fixed;
+  width:100%;
+  top:0;
 }
 #head{
   text-decoration: none;
@@ -46,6 +49,10 @@ header{
 .titolo{
 
   margin:auto 150px auto 150px;
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .titolo h1{
 
@@ -69,6 +76,7 @@ header{
   display:flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 0;
 }
 
 
@@ -113,7 +121,9 @@ footer.main{
 @media only screen and (min-width:992px) {
 
 /****************************************Header********************************/
-
+  .titolo{
+    flex-direction: column;
+  }
   #nav li a{
     transition: background 0.4s;
   }
@@ -125,12 +135,18 @@ footer.main{
 
     padding: 6px 25px 6px 25px;
   }
+  #main-container{
+    margin-top: 180px;
+  }
 }
 
 @media only screen and (max-width:992px){
   .Logo1, .Logo2{
     order: -2;
     max-width: 60px;
+  }
+  .Logo2{
+    display: none;
   }
   #nav li{
 
